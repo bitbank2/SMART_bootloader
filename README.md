@@ -21,6 +21,10 @@ The bootloader allows uploading of sketches through serial 0 or 1 and wirelessly
 code will put the unit into power down sleep after 2 minutes of no activity.
 Press the wake button to wake it up.
 
+I used the ATmega128RFA1 bootloader provided by Sparkfun as a starting point. I removed some unneeded parts and added my wireless code. The original copyright notice and comments are still there. My uploader sketch requires my XE support library which can be downloaded here:
+
+https://github.com/bitbank2/SmartResponseXE
+
 I've written a detailed blog post which documents the hows and whys of this
 project here:
 
