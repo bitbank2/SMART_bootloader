@@ -21,7 +21,6 @@ The bootloader allows uploading of sketches through serial 0 or 1 and wirelessly
 
 ATTENTION: This bootloader takes more than 4K of space, so I changed the HFUSE value (DA->D8) to reflect that. Remember to use the correct values when burning the bootloader to the XE.
 
-Press the wake button to wake it up.
 I used the ATmega128RFA1 bootloader provided by Sparkfun as a starting point. I removed some unneeded parts and added my wireless code. The original copyright notice and comments are still there. My uploader sketch requires my XE support library which can be downloaded here:
 
 https://github.com/bitbank2/SmartResponseXE
